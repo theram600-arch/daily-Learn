@@ -337,3 +337,148 @@
 # print("even", even)
 # print("odd",odd)
 
+
+
+#                                                                             #    split text reverse the string
+#  text=input("enter text: ")
+# words=text.split()
+
+# for word in words:
+#     print(word[::-1],end=" ")
+
+
+#                                                                                 # with loop
+# text = input("Enter a sentence: ")
+# words = text.split()   # split sentence into words
+# result = ""
+
+# for word in words:
+#     rev = ""
+#     for ch in word:
+#         rev = ch + rev   # reverse logic
+#     result = result + rev + " "
+
+# print(result)
+
+
+
+#                                                                                 # find unique number
+# nums = [1, 2, 2, 3, 4, 4, 5]
+# unique=[]
+# for i in nums:
+#     if i not in unique:
+#         unique.append(i)
+# print(unique)
+
+
+
+#                                                     #    find second largest ,,,sort method and max mathod and loop
+        
+
+# nums = [10, 5, 20, 8, 15]
+# nums.sort()
+# largest_number=nums[-2]
+# print(largest_number)
+
+# largest_number=max(nums)
+# nums.remove(largest_number)
+# second=max(nums)
+# print(second)
+
+# largest_number=nums[0]
+# second_number=nums[0]
+# for i in nums:
+#     if i>largest_number:
+#         second_number=largest_number
+#         largest_number=i
+#     elif i>second_number and i !=largest_number:
+#         second_number=i
+# print(second_number)
+
+
+
+
+#                                                             #    palindome or not meanins      madam if we reverse it, it is also madam
+
+# text=input("enter your text: ")
+# rev=""
+# for i in text:
+#     rev=i+rev
+
+# if text==rev:
+#     print("yes")
+# else:
+#     print("no")
+
+# sentence = "madam level hello radar"
+# words = sentence.split()
+# palindrome=[]
+
+# for word in words:
+#     if word==word[::-1]:
+#         palindrome.append(word)
+# print(palindrome)
+
+#                                         #    make dictionary from lists
+# keys = ['a','b','c']
+# values = [1,2,3]
+
+# my_dict=dict(zip(keys,values))
+# print(my_dict)
+
+
+
+# total=0
+# while True:
+#     i=int(input("enter number: "))
+
+#     total=total+i
+#     print(total)
+
+
+# text = "programming"
+# count={}
+
+# for ch in text:
+#     if ch in count:
+#         count[ch]+=1
+#     else:
+#         count[ch]=1
+# for key in count:
+#     print(key," ", count[key])
+
+
+
+
+# text = "aabbcdd"
+
+# count = {}
+
+# # Step 1: Count each character
+# for ch in text:
+#     if ch in count:
+#         count[ch] += 1
+#     else:
+#         count[ch] = 1
+
+# # Step 2: Find first non-repeating
+# for ch in text:
+#     if count[ch] == 1:
+#         print("First non-repeating character:", ch)
+#         break
+
+
+
+
+
+# nums = [1,0,2,0,3,0]
+
+# reult=[]
+
+# for i in nums:
+#     if i!=0:
+#         reult.append(i)
+# for i in nums:
+#     if i==0:
+#         reult.append(i)
+# print(reult)
