@@ -482,3 +482,22 @@
 #     if i==0:
 #         reult.append(i)
 # print(reult)
+
+
+
+
+
+# di={
+#     "name":"ram",
+#     "age":"20",
+#     "surname":"mehta",
+#     "diploma":"computer science",
+#     "skills":["python","opertaing system","linux","html","css"]
+# }
+
+# for i in di:
+#     if i=="skills":
+#         for j in di["skills"]:
+#             if j==di["skills"][1]:
+#                 print(j)
+
